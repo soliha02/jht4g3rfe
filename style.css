@@ -1,0 +1,113 @@
+.wrapper {
+    width: 40%;
+    margin: 0 auto;
+    min-height: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  body {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  
+  
+  .add{
+      background-color: #ef400f;
+      color: white;
+      font-weight: 500;
+      padding: 5px 15px;border-radius: 5px;
+      border: none;
+      min-width: 150px;
+      transition: 0.3s;
+      height: 30px;
+  }
+  button{
+    transition: 0.5s;
+  }
+  button:active{
+    transform: scale(0.90);
+  }
+  
+  .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ef400f;
+  } 
+  
+  .card button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+  }
+  input{
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 192, 192);
+    height: 30px;
+  }.wrapper {
+  width: 40%;
+  margin: 0 auto;
+  min-height: 400px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 30px;
+}
+
+body {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+
+.add{
+    background-color: #ef400f;
+    color: white;
+    font-weight: 500;
+    padding: 5px 15px;border-radius: 5px;
+    border: none;
+    min-width: 150px;
+    transition: 0.3s;
+    height: 30px;
+}
+button{
+  transition: 0.5s;
+}
+button:active{
+  transform: scale(0.90);
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ef400f;
+} 
+
+.card button{
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+input{
+  width: 300px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(207, 192, 192);
+  height: 30px;
+}
